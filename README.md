@@ -10,3 +10,7 @@ python3 extract_domains.py -f domains.txt -o output.txt
 ```
 split -l 500 -d file.txt
 ```
+
+```
+watch -d -n 300 'grep -i "cve" out00.txt'
+```
